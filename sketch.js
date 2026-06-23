@@ -71,7 +71,7 @@ function drawAsciiGif(gif) {
   const spacing = 8;
   const step = 2;
 
-  const brightnessBoost = 1.6;
+  const brightnessBoost = 1.2;
   const contrast = 1.25;
 
   buffer.clear();
