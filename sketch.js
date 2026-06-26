@@ -13,7 +13,7 @@ const gifFiles = [
   'assets/akira.gif',
   'assets/tetsuo.gif',
   'assets/cyclops.gif',
-  'assets/mononoke.gif',
+  'assets/magneto.gif',
   'assets/ghost in a shell.gif',
   'assets/death note.gif',
 ];
