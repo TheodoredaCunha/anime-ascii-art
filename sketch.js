@@ -1,5 +1,5 @@
 const density =
-'零壱弐参肆伍陸漆捌玖電脳機械東京未来夜夢界光闇雨風火水空アイウエオカキクケコサシスセソ0123456789 ';
+'零壱弐参肆伍陸漆捌玖電脳機械東京未来夜夢界光闇雨風火水空アイウエオカキクケコサシスセソ ';
 
 let gifs = [];
 let gifNames = [];
@@ -11,12 +11,11 @@ let menuVisible = true;
 
 const gifFiles = [
   'assets/akira.gif',
-  'assets/akira2.gif',
-  'assets/eva.gif',
-  'assets/eva2.gif',
-  'assets/gias.gif',
-  'assets/gias2.gif',
-  'assets/psycho pass.gif'
+  'assets/tetsuo.gif',
+  'assets/cyclops.gif',
+  'assets/mononoke.gif',
+  'assets/ghost in a shell.gif',
+  'assets/death note.gif',
 ];
 
 function preload() {
@@ -45,7 +44,7 @@ function setup() {
 
   noStroke();
 
-  buffer = createGraphics(500, 262);
+  buffer = createGraphics(750, 393);
 }
 
 function draw() {
